@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodosComponent } from './todos/todos.component';
 import { FormsModule } from '@angular/forms';
+import { PruebaTypescriptEjerciciosComponent } from './prueba-typescript-ejercicios/prueba-typescript-ejercicios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodosComponent
+    TodosComponent,
+    PruebaTypescriptEjerciciosComponent
   ],
   imports: [
     BrowserModule,
