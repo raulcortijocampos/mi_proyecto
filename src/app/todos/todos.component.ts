@@ -9,9 +9,9 @@ export class TodosComponent implements OnInit {
 
   constructor() { }
 
-  todos: any[] | undefined;
-  todo: any = {text :"text"};
-
+  
+ // todo: any = {text :"text"};
+  todos: any | undefined;
 
   ngOnInit(): void {
     this.todos=[
@@ -20,8 +20,8 @@ export class TodosComponent implements OnInit {
     ];
   }
 
-addTodo(){
-  let mitodo={text:this.todo.text};
-  this.todos?.push(mitodo);
-}
+  addTodo(){
+    
+    }
+  
 }
